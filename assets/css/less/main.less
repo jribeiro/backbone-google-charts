@@ -1,0 +1,60 @@
+@import 'all.less';
+
+/* Variables */
+@width: 960px;
+
+@grey: #eff0f2;
+@green: #1abc9c;
+@black: #34495e;
+
+/* Mixins */
+
+
+
+.normalize();
+
+body{
+	background-color: @grey;
+	color: @black;
+}
+
+header {
+	height: 300px;
+	#gradient > .horizontal(#1ABC9C, #16A085);
+	.box-shadow(inset 0 -3px 7px rgba(0, 0, 0, 0.2));
+	color: white;
+
+	hgroup {
+		height: 100%;
+		.box-pack(center);
+		.box-align(center);
+	}
+
+}
+
+#wrapper {
+	width: @width;
+	margin: 0 auto;
+	.clearfix();
+	article {
+		float: left;
+	}
+}
+
+footer {
+	height: 150px;
+	background-color: @black;
+	.box-shadow(inset 0 3px 7px rgba(0, 0, 0, 0.8));
+	color: @green;
+	.box-pack(center);
+	.box-align(center);
+
+	a {
+		color: @green;
+		text-decoration: none;
+
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+}

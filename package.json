@@ -1,0 +1,11 @@
+{
+  "name": "BackBone Google Graphs",
+  "version": "0.0.1",
+  "author": "João Campos Ribeiro",
+  "engines": [
+    "node"
+  ],
+  "devDependencies": {
+    "grunt-contrib-less": "0.5.0",
+  }
+}

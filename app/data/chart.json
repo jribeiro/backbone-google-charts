@@ -1,0 +1,153 @@
+[
+	{
+		"type": "barchart",
+		"title": "Monthly Coffee Production by Country",
+		"options": {
+			"width":450, 
+			"height":400,
+			"vAxis": {
+				"title": "Year"
+			},
+	    	"hAxis": {
+	    		"title": "Cups"
+			},
+			"backgroundColor": { "fill":"transparent" }
+		},
+		"data": [
+			{
+				"Year": "2003",
+				"Austria": 1336060,
+				"Bulgaria": 400361,
+				"Denmark": 1001582
+			},
+			{
+				"Year": "2004",
+				"Austria": 1538156,
+				"Bulgaria": 366849,
+				"Denmark": 1119450
+			},
+			{
+				"Year": "2005",
+				"Austria": 1576579,
+				"Bulgaria": 440514,
+				"Denmark": 1119450
+			}
+		]
+	},	
+
+	{
+		"type": "areachart",
+		"title": "Monthly Coffee Production by Country",
+		"options": {
+			"width":450, 
+			"height":400,
+			"isStacked": true,
+			"vAxis": {
+				"title": "Month"
+			},
+	    	"hAxis": {
+	    		"title": "Cups"
+			},
+			"backgroundColor": { "fill":"transparent" }
+		},
+		"data": [
+			{
+				"Month": "2004/05",
+				"Bolivia": 165,
+				"Ecuador": 938,
+				"Madagascar": 522
+			},
+			{
+				"Month": "2005/006",
+				"Bolivia": 135,
+				"Ecuador": 1120,
+				"Madagascar": 599
+			},
+			{
+				"Month": "2006/07",
+				"Bolivia": 157,
+				"Ecuador": 1167,
+				"Madagascar": 587
+			}
+		]
+	},
+
+	{
+		"type": "columnchart",
+		"title": "Yearly Coffee Consumption by Country",
+		"options": {
+			"width":450, 
+			"height":400,
+	    	"hAxis": {
+	    		"title": "Cups"
+			},
+			"backgroundColor": { "fill":"transparent" }
+		},
+		"data": [
+			{
+				"Year": "2003",
+				"Austria": 1336060,
+				"Bulgaria": 400361,
+				"Denmark": 1001582
+			},
+			{
+				"Year": "2004",
+				"Austria": 1538156,
+				"Bulgaria": 366849,
+				"Denmark": 1119450
+			},
+			{
+				"Year": "2005",
+				"Austria": 1576579,
+				"Bulgaria": 440514,
+				"Denmark": 1119450
+			}
+		]
+	},
+
+	{
+		"type": "linechart",
+		"title": "DNA",
+		"options": {
+			"width":450, 
+			"height":400,
+			"curveType": "function",
+			"vAxis": {
+				"maxValue": 10
+			},
+			"backgroundColor": { "fill":"transparent" }
+		},
+		"data": [
+			{
+				"X": "A",
+				"Blanket 1": 1,
+				"Blanket 2": 0.5
+			},
+			{
+				"X": "B",
+				"Blanket 1": 0.5,
+				"Blanket 2": 1
+			},
+			{
+				"X": "C",
+				"Blanket 1": 1,
+				"Blanket 2": 0.5
+			},
+			{
+				"X": "D",
+				"Blanket 1": 0.5,
+				"Blanket 2": 1
+			},
+			{
+				"X": "E",
+				"Blanket 1": 1,
+				"Blanket 2": 0.5
+			},
+			{
+				"X": "F",
+				"Blanket 1": 0.5,
+				"Blanket 2": 1
+			}
+		]
+	}
+]
