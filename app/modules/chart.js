@@ -27,6 +27,7 @@ function(app) {
   // Default Collection.
   Chart.Collection = Backbone.Collection.extend({
     url: function() {
+      console.log("bla")
       return "http://jribeiro.github.io/backbone-google-charts/app/data/chart.json";
     },
 
