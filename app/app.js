@@ -14,7 +14,7 @@ function($, _, Backbone, Handlebars) {
   // creation.
   var app = {
     // The root path to run the application.
-    root: "/"
+    root: "/backbone-google-charts/"
   };
 
   // Localize or create a new JavaScript Template object.
